@@ -14,8 +14,10 @@ let g:colors_name = "rubyblue"
 hi Normal		    guifg=#C7D4E2       guibg=#162433
 hi Normal		    ctermfg=lightGray   ctermbg=black
 hi NonText		  guifg=#4A6480       ctermfg=darkGray
+hi String       guifg=#009900       ctermfg=darkGreen
+" Ruby Symbols are defined as Constant
+hi Constant		  guifg=#BB0000       ctermfg=darkRed
 hi comment		  guifg=#428BDD       ctermfg=lightBlue
-hi constant		  guifg=#00CC00       ctermfg=lightGreen
 hi identifier	  guifg=white         ctermfg=white
 hi statement	  guifg=#F9BB00       gui=none               ctermfg=yellow
 hi preproc		  guifg=#F9BB00       ctermfg=yellow
