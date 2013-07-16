@@ -1,8 +1,6 @@
 = Ruby Blue
 
-Ruby Blue is a collection of themes for different text editors that mimic the
-colors used in the code samples on the website for the Ruby programming
-language (http://ruby-lang.org).
+This project is forked from the original and modified to my personal preference as well as to correct some inconsistencies with the style and appearance on the Ruby website.  Colors used in the code samples on the website for the Ruby programming language (http://ruby-lang.org).  Only the vim colorscheme is modified - TextMate files are currently not modified.
 
 If you create a theme for your editor of choice please fork this project and
 add it.
