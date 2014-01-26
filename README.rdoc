@@ -1,35 +1,22 @@
 = Ruby Blue
 
-This project is forked from the original and modified to my personal preference as well as to correct some inconsistencies with the style and appearance on the Ruby website.  Colors used in the code samples on the website for the Ruby programming language (http://ruby-lang.org).  Only the vim colorscheme is modified - TextMate files are currently not modified.
+This project is forked from the original and modified to my personal preference as well as to correct some inconsistencies with the style and appearance on the Ruby website.  Colors used in the code samples on the website for the Ruby programming language (http://ruby-lang.org).  Only the vim colorscheme is modified.  TextMate files have been removed from this fork.
 
-If you create a theme for your editor of choice please fork this project and
-add it.
+== Installation
 
-== TextMate 1
+Using pathogen:
+ 
+$ cd ~/.vim/bundle
+$ git clone git://github.com/llnathanll/rubyblue.git
 
-To install:
-
-1. Download RubyBlue.tmTheme
-2. Copy it to: /Applications/TextMate.app/Contents/SharedSupport/Themes/
-3. Switch to the theme under: Preferences > Fonts & Colors
-
-== TextMate 2
-
-To install:
-
-1. Download RubyBlue.tmBundle
-2. Copy it to: ~/Library/Application Support/Avian/Bundles/
-3. Switch to the theme under: View > Theme
-
-== VIM
-
-To install:
+Or: 
 
 1. Download rubyblue.vim
 2. Copy it to: ~/vim/colors/
-3. Add `colorscheme rubyblue` to your ~/.vimrc file
 
-== Licence
+In vim or gvim type `:colors rubyblue` or add `colorscheme rubyblue` to your ~/.vimrc file
+
+== Original Licence
 
   Copyright (c) 2009, John W. Long.
 
